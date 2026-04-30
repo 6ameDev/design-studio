@@ -10,7 +10,6 @@ RUN apt-get update && apt-get install -y \
 
 # Pre-download AI tool install scripts (fails at build time if network issues)
 RUN mkdir -p /usr/local/share/install-scripts && \
-    curl -fsSL https://claude.ai/install.sh -o /usr/local/share/install-scripts/claude-install.sh && \
     curl -fsSL https://opencode.ai/install -o /usr/local/share/install-scripts/opencode-install.sh && \
     chmod +x /usr/local/share/install-scripts/*.sh
 

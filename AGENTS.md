@@ -19,7 +19,7 @@ Design Studio is a secure devcontainer-based React development environment for n
 - Never modify `.npmrc`, `config/allowed-packages-*.json`, or `scripts/safe-*.js`.
 
 ### CRITICAL: File Restrictions
-- Do NOT modify files in `.devcontainer/`, `.claude/`, `.opencode/`, `scripts/`, or `config/`.
+- Do NOT modify files in `.devcontainer/`, `.opencode/`, `scripts/`, or `config/`.
 - Do NOT edit security configuration files.
 
 ## Coding Standards

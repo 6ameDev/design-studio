@@ -51,14 +51,6 @@ if [ ! -d "/workspaces/design-studio/node_modules" ]; then
     /usr/local/bin/wrappers/npm ci || /usr/local/bin/wrappers/npm install
 fi
 
-# Install Claude Code (as node user) from pre-downloaded script
-if ! command -v claude &> /dev/null; then
-    echo "🤖 Installing Claude Code..."
-    bash /usr/local/share/install-scripts/claude-install.sh
-else
-    echo "✅ Claude Code already installed"
-fi
-
 # Install OpenCode (as node user) from pre-downloaded script
 if ! command -v opencode &> /dev/null; then
     echo "🤖 Installing OpenCode..."
@@ -77,6 +69,5 @@ echo ""
 echo "🚀 To start the dev server:"
 echo "   npm run dev"
 echo ""
-echo "🤖 AI tools installed. Open a new terminal to use:"
-echo "   claude      - Start Claude Code"
+echo "🤖 AI tool installed. Open a new terminal to use:"
 echo "   opencode    - Start OpenCode"

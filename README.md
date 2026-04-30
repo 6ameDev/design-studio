@@ -106,12 +106,9 @@ Anything you can imagine with React, TypeScript, and Tailwind CSS:
 
 ## 🤖 AI Assistance
 
-Two AI coding assistants are pre-installed inside your container:
+**OpenCode** is pre-installed inside your container. Type `opencode` in the terminal to launch your AI coding assistant.
 
-- **Claude Code** — type `claude` in the terminal
-- **OpenCode** — type `opencode` in the terminal
-
-Both tools support a **Plan** and **Build** workflow that helps you think before you code.
+It supports a **Plan** and **Build** workflow that helps you think before you code.
 
 ### How to Work With Your AI Assistant
 

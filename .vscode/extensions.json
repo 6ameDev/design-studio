@@ -1,8 +1,5 @@
 {
   "recommendations": [
-    "dsznajder.es7-react-js-snippets",
-    "bradlc.vscode-tailwindcss",
-    "usernamehw.errorlens",
-    "esbenp.prettier-vscode"
+    "ms-vscode-remote.remote-containers"
   ]
 }

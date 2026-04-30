@@ -7,10 +7,11 @@
   "workspaceFolder": "/workspaces/design-studio",
   "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/design-studio,type=bind,consistency=cached",
   "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "postStartCommand": "echo '✅ Workspace ready. Open a new terminal and run npm run dev to start the preview server.'",
   "forwardPorts": [5173],
   "portsAttributes": {
     "5173": {
-      "label": "Vite Dev Server",
+      "label": "Dev Server",
       "onAutoForward": "notify"
     }
   },
